@@ -1,0 +1,367 @@
+{
+  "@@locale": "en",
+  "settings": "Settings",
+  "language": "Language",
+  "systemDefault": "System default",
+  "chooseLanguage": "Choose your language.",
+  "makeItYours": "Make it feel like you.",
+  "music": "Music",
+  "soundEffects": "Sound effects",
+  "haptics": "Haptics",
+  "regionPatterns": "Region patterns",
+  "on": "On",
+  "off": "Off",
+  "preferencesFooter": "Your preferences, your pace.",
+  "howToPlay": "How to play",
+  "howToPlayBadge": "HOW TO PLAY",
+  "close": "Close",
+  "back": "Back",
+  "cancel": "Cancel",
+  "tryAgain": "Try again",
+  "nextLevel": "Next level",
+  "backHome": "Back home",
+  "tagline": "A little puzzle. A little joy.",
+  "nextChallenge": "Your next little challenge",
+  "dailyChallenge": "Daily challenge",
+  "dailyDescription": "A fresh puzzle every day",
+  "dailyPlay": "DAILY PLAY",
+  "freshChallenge": "A fresh little\nchallenge.",
+  "todayPuzzle": "Today’s puzzle",
+  "newArrangement": "Same rules. A new arrangement.",
+  "playDaily": "Play daily puzzle",
+  "dailyRules": "One Nova per row, column and region.\nNo touching, even diagonally.",
+  "novaReady": "Nova ready to play",
+  "playWithNova": "Play with Nova",
+  "tutorialTitle": "Small rules.\nBright possibilities.",
+  "rowsColumns": "Rows + columns",
+  "rowColumnBadge": "Row + column",
+  "everyRegion": "Every region",
+  "neverTouch": "Never touch",
+  "neverTouching": "Never touching",
+  "ruleRows": "One Nova in every\nrow and column.",
+  "ruleRegion": "One Nova in each\ncoloured region.",
+  "ruleTouching": "Keep Novas apart,\neven diagonally.",
+  "letsPlay": "Let’s play",
+  "gameplay": "Gameplay",
+  "findNovas": "Find the Novas",
+  "placeNova": "Place Nova",
+  "markX": "Mark X",
+  "undo": "Undo",
+  "reset": "Reset",
+  "hintBadge": "HINT",
+  "littleNudge": "A little nudge",
+  "applyHint": "Apply hint",
+  "takeBreak": "Take a break?",
+  "puzzleHere": "Your puzzle will be here\nwhen you return.",
+  "keepPlaying": "Keep playing",
+  "saveLeave": "Save and leave",
+  "oneMoreTry": "One more try?",
+  "beautifullyDone": "Beautifully done.",
+  "freshStart": "A fresh start. A new perspective.\nYou have got this.",
+  "freshStartBadge": "A FRESH START",
+  "completeBadge": "PUZZLE COMPLETE",
+  "nextWaiting": "Your next puzzle is waiting.",
+  "noHint": "No hint is available.",
+  "hintLoadError": "Could not load a hint. Try again.",
+  "nextLoadError": "Could not load the next level. Try again.",
+  "savePuzzleError": "Could not save your puzzle. Try again.",
+  "puzzleLoadError": "Could not load the puzzle.",
+  "dailyLoadError": "Could not load today’s puzzle. Try again.",
+  "preferencesLoadError": "Could not load preferences.",
+  "preferencesSaveError": "Could not save your preference. Try again.",
+  "restoreError": "Could not restore campaign progress.",
+  "loading": "Loading",
+  "loadingPuzzle": "Loading puzzle",
+  "loadingPreferences": "Loading preferences",
+  "sameRow": "Same row. Try another square.",
+  "sameColumn": "Same column. Try another square.",
+  "sameRegion": "Same region. Try another square.",
+  "touchingError": "Novas cannot touch. Try another square.",
+  "wrongCell": "Try another square.",
+  "incorrectPlacement": "Incorrect placement",
+  "markedX": "Marked X",
+  "empty": "Empty",
+  "completed": "completed",
+  "locked": "locked",
+  "unlocked": "unlocked",
+  "level": "Level {number}",
+  "@level": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "levelBadge": "LEVEL {number}",
+  "@levelBadge": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "playLevel": "Play level {number}",
+  "@playLevel": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "levelLoadError": "Could not load level {number}. Try again.",
+  "@levelLoadError": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "foundCount": "{placed} of {total}",
+  "@foundCount": {
+    "placeholders": {
+      "placed": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "hintCount": "Hint · {count}",
+  "@hintCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "levelStatus": "{level}, {status}",
+  "@levelStatus": {
+    "placeholders": {
+      "level": {
+        "type": "String"
+      },
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "languageLabel": "{label}, {language}",
+  "@languageLabel": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      },
+      "language": {
+        "type": "String"
+      }
+    }
+  },
+  "busyLabel": "{label}, Loading",
+  "@busyLabel": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "cellDescription": "Row {row}, column {column}, region {region}. {state}.",
+  "@cellDescription": {
+    "placeholders": {
+      "row": {
+        "type": "int"
+      },
+      "column": {
+        "type": "int"
+      },
+      "region": {
+        "type": "int"
+      },
+      "state": {
+        "type": "String"
+      }
+    }
+  },
+  "hintCellDescription": "Hint. {cell}",
+  "@hintCellDescription": {
+    "placeholders": {
+      "cell": {
+        "type": "String"
+      }
+    }
+  },
+  "unitRow": "row {number}",
+  "@unitRow": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "unitColumn": "column {number}",
+  "@unitColumn": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "unitRegion": "region {number}",
+  "@unitRegion": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "hintRow": "Row {row} already has a Nova.",
+  "@hintRow": {
+    "placeholders": {
+      "row": {
+        "type": "int"
+      }
+    }
+  },
+  "hintColumn": "Column {column} already has a Nova.",
+  "@hintColumn": {
+    "placeholders": {
+      "column": {
+        "type": "int"
+      }
+    }
+  },
+  "hintRegion": "Region {region} already has a Nova.",
+  "@hintRegion": {
+    "placeholders": {
+      "region": {
+        "type": "int"
+      }
+    }
+  },
+  "hintTouching": "A Nova here would touch a placed Nova.",
+  "@hintTouching": {
+    "placeholders": {}
+  },
+  "hintActionX": "Mark row {row}, column {column} with an X.",
+  "@hintActionX": {
+    "placeholders": {
+      "row": {
+        "type": "int"
+      },
+      "column": {
+        "type": "int"
+      }
+    }
+  },
+  "hintSingle": "Row {row}, column {column} is the only possible Nova in {unit}. Place a Nova there.",
+  "@hintSingle": {
+    "placeholders": {
+      "row": {
+        "type": "int"
+      },
+      "column": {
+        "type": "int"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "hintLocked": "A Nova at row {row}, column {column} would rule out every possible Nova in {unit}.",
+  "@hintLocked": {
+    "placeholders": {
+      "row": {
+        "type": "int"
+      },
+      "column": {
+        "type": "int"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "hintContradiction": "A Nova at row {row}, column {column} would force moves that leave {unit} without a Nova.",
+  "@hintContradiction": {
+    "placeholders": {
+      "row": {
+        "type": "int"
+      },
+      "column": {
+        "type": "int"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "hintSearch": "Assuming a Nova at row {row}, column {column} leaves no way to satisfy all rows, columns, regions, and the no-touch rule.",
+  "@hintSearch": {
+    "placeholders": {
+      "row": {
+        "type": "int"
+      },
+      "column": {
+        "type": "int"
+      }
+    }
+  },
+  "attemptsLeft": "{count, plural, =0{0 attempts left} one{1 attempt left} other{{count} attempts left}}",
+  "@attemptsLeft": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "hintsRemaining": "{count, plural, =0{Hint, 0 remaining} one{Hint, 1 remaining} other{Hint, {count} remaining}}",
+  "@hintsRemaining": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "allFound": "{count, plural, one{All 1 Nova found.} other{All {count} Novas found.}}",
+  "@allFound": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "hint": "Hint",
+  "restartPuzzle": "Restart this puzzle?",
+  "restartDescription": "Your marks will be cleared. Attempts and power-ups will be restored.",
+  "novaUsesRemaining": "{count, plural, =0{No Nova reveals left} =1{1 Nova reveal left} other{{count} Nova reveals left}}",
+  "@novaUsesRemaining": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "profile": "Profile",
+  "profileUsername": "Username",
+  "profileAvatars": "Avatar",
+  "profileFrames": "Frame",
+  "profileConfirm": "Confirm",
+  "profileNameError": "Enter a name of 1–32 characters.",
+  "profileSaveError": "Could not save your profile. Please try again.",
+  "profileLoadError": "Could not load your profile. Please try again.",
+  "avatarPanda": "Panda",
+  "avatarFox": "Fox",
+  "avatarBunny": "Bunny",
+  "avatarLion": "Lion",
+  "avatarKoala": "Koala",
+  "avatarPenguin": "Penguin",
+  "avatarBear": "Bear",
+  "frameClassicPurple": "Classic Purple",
+  "frameRoyalGold": "Royal Gold",
+  "frameRose": "Rose",
+  "frameMint": "Mint",
+  "frameCosmic": "Cosmic",
+  "frameFrost": "Frost",
+  "frameSunshine": "Sunshine",
+  "frameRainbow": "Rainbow"
+}

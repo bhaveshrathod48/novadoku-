@@ -1,0 +1,58 @@
+name: novadoku
+description: A little puzzle. A little joy.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.2
+
+dependencies:
+  audioplayers: ^6.8.1
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_riverpod: ^3.4.3
+  go_router: ^18.1.0
+  intl: ^0.20.3
+  path_provider: ^2.1.6
+  shared_preferences: ^2.5.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  generate: true
+  uses-material-design: true
+  assets:
+    - assets/fonts/OFL-DynaPuff.txt
+    - assets/fonts/OFL-NunitoSans.txt
+    - assets/fonts/OFL-NotoSans.txt
+    - assets/fonts/OFL-NotoSansDevanagari.txt
+    - assets/fonts/OFL-NotoSansJP.txt
+    - assets/characters/nova/
+    - assets/characters/profile/
+    - assets/images/splash/
+    - assets/animations/nova/
+    - assets/music/pastel_orbit.wav
+    - assets/music/swaip.mp3
+    - assets/music/Ui click btn.mp3
+    - assets/sounds/ # Includes short offline excerpts from swaip.mp3.
+  fonts:
+    - family: Noto Sans
+      fonts:
+        - asset: assets/fonts/NotoSans.ttf
+    - family: Noto Sans Devanagari
+      fonts:
+        - asset: assets/fonts/NotoSansDevanagari.ttf
+    - family: Noto Sans JP
+      fonts:
+        - asset: assets/fonts/NotoSansJP.ttf
+    - family: DynaPuff
+      fonts:
+        - asset: assets/fonts/DynaPuff.ttf
+    - family: Nunito Sans
+      fonts:
+        - asset: assets/fonts/NunitoSans.ttf
